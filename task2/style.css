@@ -43,7 +43,7 @@ body{
     margin-bottom: 25px;
 }
 
-.item .item-percentage .item-percent{
+.item .item-percentage .math{
     width: 300px;
     height: 15px;
     border-radius: 10px;
@@ -54,7 +54,7 @@ body{
     overflow: hidden;
 }
 
-.item .item-percentage .item-percent::after{
+.item .item-percentage .item-percent1::after{
     content: "";
     background-color: #FC9860;
     position: absolute;
@@ -65,6 +65,27 @@ body{
     height: 15px;
 }
 
+.item .item-percentage .item-percent2::after{
+    content: "";
+    background: #608CFC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    width: 76%;
+    height: 15px;
+}
+
+.item .item-percentage .item-percent3::after{
+    content: "";
+    background: #FC6086;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    width: 21%;
+    height: 15px;
+}
 
 .item .item-percentage p{
     font-size: 12px;
