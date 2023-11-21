@@ -54,10 +54,30 @@ body{
     flex-direction: column;
     justify-content: space-between;
     transition: all 0.3s;
+    position: relative;
 }
 
 .container-item .item:hover{
     background: #242486;
+}
+
+.container-item .item:nth-child(2)::after{
+    content: "Best Price";
+    width: 49px;
+    height: 15px;
+    border-radius: 20px;
+    border: 1px solid #69699A;
+    background: #A0E0B2;
+    position: absolute;
+    top: -12px;
+    left: 60px;
+    color: #171727;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-item .item .item-text .item-text-p{
