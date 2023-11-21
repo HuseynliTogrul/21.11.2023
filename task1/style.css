@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #0F0F1B;
+    color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container .header-text{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 52px;
+    text-align: center;
+}
+
+.container-item{
+    display: grid;
+    grid-template-columns: repeat(3, 185px);
+    gap: 30px;
+}
+
+.container-item .item{
+    border-radius: 10px;
+    background: #171727;
+    padding: 20px;
+    width: 185px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s;
+}
+
+.container-item .item:hover{
+    background: #242486;
+}
+
+.container-item .item .item-text .item-text-p{
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.container-item .item h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.container-item .item p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-item .item .btn a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container-item .item .btn a p{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+
+.container button{
+    border-radius: 10px;
+    border: 1px solid #69699A;
+    background: rgba(217, 217, 217, 0.00);
+    padding: 15px;
+    color: #69699A;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.container button:hover{
+    background: #242486;
+    color: white;
+    border: none;
+}
